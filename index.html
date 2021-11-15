@@ -7,46 +7,56 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="bg-light">
+<body class="bg-white">
  
   <!--Navbar-->
-  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
-    <div class="container-lg">
-      <a class="navbar-brand text-danger fw-bold fs-4" href="#">UK</a>
-      <div class="dropdown">
-        <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#home">Home</a></li>
-          <li><a class="dropdown-item" href="#about">About</a></li>
-          <li><a class="dropdown-item" href="#services">Services</a></li>
-          <li><a class="dropdown-item" href="#portofolio">Portfolio</a></li>
-          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-          <li><a class="dropdown-item" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-lg">
+    <a class="navbar-brand" href="#"><img src="img/Group 7.png" alt=""></a>
+    <div >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-start" id="nav-menu">
+        <li class="nav-item">
+          <a class="aktif nav-link mx-3" href="#" style="color:#000; padding-left: 0; padding-right: 0; position: relative;" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-3" href="#about" style="color:#000; padding-left: 0; padding-right: 0; position: relative;">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-3" href="#portofolio" style="color:#000; padding-left: 0; padding-right: 0; position: relative;">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-3" href="#testimonials" style="color:#000; padding-left: 0; padding-right: 0; position: relative;">Kata Mereka</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-3" href="#" style="color:#000; padding-left: 0; padding-right: 0; position: relative;">Services</a>
+        </li>
+
+      </ul>
     </div>
-  </nav>
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-menu'></i>
+  </div>
+  </div>
+</nav>
   <!-- navbar end-->
 
   <!-- home section-->
-  <section class="home py-5" id="home">
-    <div class="container-lg">
-      <div class="row min-vh-100 align-items-center align-content-center">
-        <div class="col-md-8 mt-3 mt-md-0">
+  <section class="home bg-white " id="home">
+    <div class="container-md">
+      <div class="row min-vh-100 align-items-center justify-content-evenly">
+        <div class="col-md-7 mt-3 mt-md-0">
           <div class="home-img text-end">
-            <img src="img/Other 07.png" class="hero-img">
+            <img src="img/Other 07.png" class="hero-img img-fluid">
           </div>
         </div>
-        <div class="col-md-4 mt-3 mt-md-0 order-md-first">
+        <div class="col-md-5 mt-3 mt-md-0 order-md-first">
           <div class="home-text">
-    
             <h1 class="zego text-uppercase">ZEGO </h1>
-            <p class="mt-1 text-muted text-hero">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-            <a href="#portofolio" class="btn diskon px-3 mt-3">Ambil Diskon</a>
-            <a href="#portofolio" class="btn diskon px-3 mt-3">Ambil Diskon</a>
+            <p class="mt-1 text-muted text-hero mb-3">Selamat Datang di website kami. Zego akan menjadi sahabat Brand Kamu dalam membuat WEBSITE dengan desain berkelas dan profesional. Fokus kami adalah membantu Brand Perusahaan Kamu untuk menjadi GO DIGITAL. </p>
+            <a href="#portofolio" class="btn diskon fw-bold me-3">Hubungi Kami</a>
+            <a href="#portofolio" class="bt-porto btn  fw-bold ">Portfolio</a>
           </div>
         </div>
       </div>
@@ -54,120 +64,22 @@
   </section>
 
   <!--About Section-->
-  <section class="about bg-white py-5" id="about">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">About Me</h2>
+  <section class="about bg-light " id="about">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center justify-content-evenly">
+        <div class="col-md-7 mt-3 mt-md-6">
+          <div class="home-img">
+            <img src="img/laptop1.png" class="hero-img img-fluid">
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-text">
-            <h3 class="fs-4 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium architecto repudiandae alias voluptatem, 
-              ratione consequuntur debitis quia beatae enim vero accusantium non dicta minima iure eos totam perferendis eligendi ad?</p>
-          </div>
-          <div class="row text-center text-uppercase my-3">
-            <div class="col-sm-4">
-              <div class="fact-item">
-                <h4 class="fs-1 fw-bold">100</h4>
-                <p class="text-muted">Project Completed</p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="fact-item">
-                <h4 class="fs-1 fw-bold">90</h4>
-                <p class="text-muted">Happy Clients</p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="fact-item">
-                <h4 class="fs-1 fw-bold">95</h4>
-                <p class="text-muted">Positive Reviews</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 d-flex align-items-center">
-              <a href="#" class="btn btn-danger me-5 px-3">Download CV</a>
-              <div class="social-links">
-                <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mt-5 mt-md-0">
-          <div class="skill-item mb-4">
-            <h3 class="fs-6">Html</h3>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3 class="fs-6">CSS</h3>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item mb-4">
-            <h3 class="fs-6">Javascript</h3>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <h3 class="fs-6">Bootstrap</h3>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Service-->
-  <section class="service py-5" id="services">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">What I Do</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="service-item shadow-sm p-4 rounded bg-white">
-            <div class="icon my-3 text-danger fs-2">
-              <i class="fas fa-code"></i>
-            </div>
-            <h3 class="fs-5 py-2">Web Development</h3>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="service-item shadow-sm p-4 rounded bg-white">
-            <div class="icon my-3 text-danger fs-2">
-              <i class="fas fa-lightbulb"></i>
-            </div>
-            <h3 class="fs-5 py-2">Creative Design</h3>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="service-item shadow-sm p-4 rounded bg-white">
-            <div class="icon my-3 text-danger fs-2">
-              <i class="fas fa-code"></i>
-            </div>
-            <h3 class="fs-5 py-2">Photoshop</h3>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-md-5 mt-3 mt-md-0 ">
+          <div class="home-text">
+            <h2 class="fw-bold ">About US </h2>
+            <p class="mt-1 text-muted text-hero ">Zego berdiri sejak Tahun 2019 dan beranggotakan 4 Orang Tim yang berlokasi di Jalan Wedi - Wonosari,  Wedi, Kota Klaten.
+              Kami melayani pembuatan Website, Landing Page & Aplikasi Web profesional.
+               Bergaransi dan selalu mengutamakan kepuasan pelanggan</p>
+            <a href="#portofolio" class="btn diskon fw-bold me-3">Ambil Diskon</a>
+            <a href="#portofolio" class="bt-porto btn  fw-bold ">Portfolio</a>
           </div>
         </div>
       </div>
@@ -176,7 +88,7 @@
 
   <!--Portpfolio-->
   <section class="portofolio bg-white py-5" id="portofolio">
-    <div class="container-lg py-4">
+    <div class="container-lg min-vh-100 py-4 align-items-center">
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
@@ -231,22 +143,9 @@
     </div>
   </section>
 
-  <!--Frelancer-->
-  <section class="freelancer-available py-5 bg-danger">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <p class="text-light fs-5">Do you have any project ?</p>
-          <h2 class="fs-1 text-white mb-4">I'm Available For Freelancer Projects</h2>
-          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Testimonials-->
-  <section class="testimonials py-5 bg-white" id="testimonials">
-    <div class="container-lg py-4">
+   <!--Testimonials-->
+   <section class="testimonials py-5 bg-white" id="testimonials">
+    <div class="container-lg py-4 min-vh-100 align-items-center">
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
@@ -323,6 +222,65 @@
       </div>
     </div>
   </section>
+
+  <!--Service-->
+  <section class="service py-5" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Web Development</h3>
+            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-2">Creative Design</h3>
+            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Photoshop</h3>
+            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!--Frelancer-->
+  <section class="freelancer-available py-5 bg-danger">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project ?</p>
+          <h2 class="fs-1 text-white mb-4">I'm Available For Freelancer Projects</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
 
   <section class="contact py-5 ">
     <div class="container-lg py-4">
@@ -409,5 +367,6 @@
   </footer>
 
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
