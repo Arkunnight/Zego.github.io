@@ -21,3 +21,33 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+
+
+const br = ScrollReveal({
+    origin: 'bottom',
+    duration: 2000,
+    distance: '30px',
+    reset: true
+});
+
+
+
+br.reveal(`.home-img`, {
+    interval: 500
+})
+
+br.reveal(`.home-text`, {
+    interval: 250
+})
+
+
+br.reveal(`.portofolio`, {
+    interval: 500
+})
+
+br.reveal(`.portofolio-item`, {
+    interval: 200
+})
+
